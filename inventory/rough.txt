@@ -1,0 +1,5 @@
+<?php
+        $sqly="SELECT weight,quantity,price FROM transaction where item_ID='".$rec['item_ID']."'";
+        $resulty=mysqli_query($db,$sqly);
+        $recy=mysqli_fetch_array($resulty);
+        ?>
